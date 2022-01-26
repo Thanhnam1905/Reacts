@@ -4,6 +4,8 @@ import "./App.scss";
 import Cover from "./Components/Cover";
 import LoginSuccess from "./Components/LogInSuccess";
 import Auth from "./Page/Auth";
+import Billing from "./Page/Billing";
+import Payment from "./Page/Payment";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Route path="/" element={<Cover />} />
           <Route path="/login/*" element={<Auth />} />
           <Route path="/login-success" element={<LoginSuccess />} />
+          <Route path="/Payment" element={<Payment />} />
+          <Route path="/Billing" element={<Billing />} />
         </Routes>
       </BrowserRouter>
     </div>

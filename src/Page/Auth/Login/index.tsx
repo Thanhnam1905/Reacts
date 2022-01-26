@@ -23,7 +23,7 @@ const Login = () => {
       setLoading(true);
       await signInWithEmailAndPassword(auth, username, password);
       setLoading(false);
-      navigate("/login-success");
+      navigate("/Billing");
     } catch (error) {
       setLoading(false);
     }

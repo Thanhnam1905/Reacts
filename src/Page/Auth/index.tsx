@@ -15,6 +15,7 @@ const Auth = () => {
         <Routes>
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/" element={<Login />} />
+         
         </Routes>
       </div>
     </div>
