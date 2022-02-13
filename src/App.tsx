@@ -7,6 +7,7 @@ import Auth from "./Page/Auth";
 import Billing from "./Page/Billing";
 
 
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route path="/login/*" element={<Auth />} />
           <Route path="/login-success" element={<LoginSuccess />} />
           <Route path="/Billing" element={<Billing />} />
+         
           
         </Routes>
       </BrowserRouter>
