@@ -5,6 +5,7 @@ import Cover from "./Components/Cover";
 import LoginSuccess from "./Components/LogInSuccess";
 import Auth from "./Page/Auth";
 import Billing from "./Page/Billing";
+import Order from "./Page/Order";
 
 
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/login/*" element={<Auth />} />
           <Route path="/login-success" element={<LoginSuccess />} />
           <Route path="/Billing" element={<Billing />} />
+          <Route path="/Order" element={<Order />} />
          
           
         </Routes>
