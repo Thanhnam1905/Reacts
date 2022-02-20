@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import passwordIcon from "../../../assets/password.svg";
 import userIcon from "../../../assets/user.svg";
-import { auth } from "../../../Firebase";
+import { auth } from "../../Firebase";
 import style from "./Login.module.css";
 
 const Login = () => {
