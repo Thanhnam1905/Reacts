@@ -6,7 +6,7 @@ import LoginSuccess from "./Components/LogInSuccess";
 import Auth from "./Page/Auth";
 import Billing from "./Page/Billing";
 import Order from "./Page/Order";
-
+import Payment from "./Page/Payment";
 
 
 
@@ -20,6 +20,7 @@ function App() {
           <Route path="/login-success" element={<LoginSuccess />} />
           <Route path="/Billing" element={<Billing />} />
           <Route path="/Order" element={<Order />} />
+          <Route path="/Payment" element={<Payment />} />
           
          
           
