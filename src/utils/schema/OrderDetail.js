@@ -38,7 +38,7 @@ const OrderDetail = {
       CodeBill: 5600,
       Collected: "Kế toán đại cương",
       Semester: "2020 - 2021",
-      Price: "1.160.000",
+      Price: "1.740.000",
     },
     {
       autoId: 6,
@@ -46,7 +46,7 @@ const OrderDetail = {
       CodeBill: 5600,
       Collected: "Kế toán đại cương",
       Semester: "2020 - 2021",
-      Price: "1.160.000",
+      Price: "1.740.000",
     },
     {
       autoId: 7,
